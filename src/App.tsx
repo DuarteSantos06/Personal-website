@@ -9,7 +9,7 @@ import Education from "./pages/Education";
 import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
 import Skills from "./pages/Skills";
-import CV from "./pages/Cv";
+
 
 const queryClient = new QueryClient();
 
@@ -25,7 +25,6 @@ const App = () => (
           <Route path="/education" element={<Education />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/cv" element={<CV/>} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
           

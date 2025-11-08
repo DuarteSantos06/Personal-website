@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail, ArrowRight } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -66,6 +66,16 @@ const Index = () => {
               className="p-3 bg-card rounded-lg hover:bg-primary/10 transition-colors group"
             >
               <Mail className="w-6 h-6 text-muted-foreground group-hover:text-primary transition-colors" />
+            </a>
+            <a
+              href="/Duarte_SantosCVNovembro.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 bg-card rounded-lg hover:bg-primary/10 transition-colors group"
+            >
+            <span className="text-muted-foreground group-hover:text-primary transition-colors font-medium">
+              CV
+            </span>
             </a>
           </div>
         </div>

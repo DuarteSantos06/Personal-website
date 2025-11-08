@@ -5,7 +5,7 @@ const education = [
   {
     icon: "graduation",
     title: "Degree computer engineering",
-    institution: "Nova Umniversity Lisbon",
+    institution: "Nova University Lisbon",
     period: "2024-Present",
     description: "-Focused on the study of programming, computer systems, algorithms, and software engineering. Includes hands-on experience through individual and group projects.",
   },
@@ -32,10 +32,10 @@ const Education = () => {
       <main className="container mx-auto px-6 pt-32 pb-20">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-foreground mb-4">
-            Educação
+            Education
           </h1>
           <p className="text-xl text-muted-foreground mb-16">
-            Minha formação acadêmica e certificações
+            My academic journey
           </p>
 
           <div className="space-y-12">

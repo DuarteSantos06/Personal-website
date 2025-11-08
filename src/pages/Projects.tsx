@@ -4,29 +4,12 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "Plataforma completa de e-commerce com carrinho de compras, pagamentos integrados e painel administrativo.",
-    tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=500&fit=crop",
-  },
-  {
-    title: "Task Management App",
-    description: "Aplicação de gerenciamento de tarefas com colaboração em tempo real e notificações.",
-    tech: ["React", "Firebase", "Tailwind CSS"],
-    image: "https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=500&fit=crop",
-  },
-  {
     title: "Portfolio Website",
-    description: "Website portfolio moderno e responsivo para showcase de projetos e habilidades.",
-    tech: ["React", "TypeScript", "Framer Motion"],
+    description: "Developed a personal portfolio website to showcase projects and skills, built with React, TypeScript, and Tailwind CSS for a modern and responsive design.",
+    tech: ["React", "TypeScript", "Tailwind CSS"],
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=500&fit=crop",
   },
-  {
-    title: "Weather Dashboard",
-    description: "Dashboard interativo de previsão do tempo com gráficos e mapas integrados.",
-    tech: ["React", "Chart.js", "Weather API"],
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=500&fit=crop",
-  },
+  
 ];
 
 const Projects = () => {
@@ -37,10 +20,10 @@ const Projects = () => {
       <main className="container mx-auto px-6 pt-32 pb-20">
         <div className="max-w-6xl mx-auto">
           <h1 className="text-5xl font-bold text-foreground mb-4">
-            Projetos
+            Projects
           </h1>
           <p className="text-xl text-muted-foreground mb-16">
-            Alguns dos meus trabalhos mais recentes
+            Some of my recent projects
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -78,10 +61,16 @@ const Projects = () => {
                   </div>
                   
                   <div className="flex gap-3">
-                    <Button variant="default" size="sm" className="gap-2">
-                      <Github className="w-4 h-4" />
-                      Código
-                    </Button>
+                    <a
+                        href="https://github.com/DuarteSantos06/Personal-website"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Button variant="default" size="sm" className="gap-2">
+                        <Github className="w-4 h-4" />
+                           Código
+                        </Button>
+                    </a>
                     <Button variant="outline" size="sm" className="gap-2">
                       <ExternalLink className="w-4 h-4" />
                       Demo

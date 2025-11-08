@@ -30,7 +30,7 @@ const Navbar = () => {
                 isActive("/experience") ? "text-primary" : "text-muted-foreground"
               }`}
             >
-              Experiência
+              Experience
             </Link>
             <Link
               to="/education"
@@ -38,7 +38,7 @@ const Navbar = () => {
                 isActive("/education") ? "text-primary" : "text-muted-foreground"
               }`}
             >
-              Educação
+              Education
             </Link>
             <Link
               to="/projects"
@@ -46,7 +46,7 @@ const Navbar = () => {
                 isActive("/projects") ? "text-primary" : "text-muted-foreground"
               }`}
             >
-              Projetos
+              Projects
             </Link>
           </div>
         </div>

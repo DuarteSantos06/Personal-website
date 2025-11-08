@@ -4,24 +4,17 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const experiences = [
   {
     type: "work",
-    title: "Desenvolvedor Full Stack Senior",
-    company: "Tech Solutions Inc.",
-    period: "2022 - Presente",
-    description: "Desenvolvimento de aplicações web escaláveis usando React, Node.js e PostgreSQL. Liderança técnica em projetos de grande escala.",
+    title: "Junior Consultant-Projects department",
+    company: "In-Nova Junior enterprise",
+    period: "2025- Present",
+    description: "-Responsible for the development, maintenance, and optimization of web and mobile platforms.\n-Used project management and collaboration tools such as Jira, Microsoft Teams, and Git.\n-Led teams responsible for the planning and organization of events.",
   },
   {
     type: "work",
-    title: "Desenvolvedor Frontend",
-    company: "Digital Agency",
-    period: "2020 - 2022",
-    description: "Criação de interfaces responsivas e interativas usando React, TypeScript e Tailwind CSS. Colaboração com designers e backend developers.",
-  },
-  {
-    type: "education",
-    title: "Bacharelado em Ciência da Computação",
-    company: "Universidade Federal",
-    period: "2016 - 2020",
-    description: "Formação completa em fundamentos de programação, algoritmos, estruturas de dados e engenharia de software.",
+    title: "Ambassador",
+    company: "NTT Data",
+    period: "2025-Present",
+    description: "-Responsible for building and maintaining relationships between the company and university students.\n-Collecting and analyzing feedback from students.",
   },
 ];
 
@@ -63,7 +56,7 @@ const Experience = () => {
                       </h3>
                       <p className="text-primary mb-2">{exp.company}</p>
                       <p className="text-sm text-muted-foreground mb-4">{exp.period}</p>
-                      <p className="text-foreground/80">{exp.description}</p>
+                      <p className="text-foreground/80 whitespace-pre-line">{exp.description}</p>
                     </div>
                   </div>
                 </div>

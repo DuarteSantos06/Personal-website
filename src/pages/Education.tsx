@@ -4,31 +4,10 @@ import { GraduationCap, Award, BookOpen } from "lucide-react";
 const education = [
   {
     icon: "graduation",
-    title: "Bacharelado em Ciência da Computação",
-    institution: "Universidade Federal",
-    period: "2016 - 2020",
-    description: "Formação completa em fundamentos de programação, algoritmos, estruturas de dados e engenharia de software. Projeto final focado em desenvolvimento web.",
-  },
-  {
-    icon: "award",
-    title: "Certificação React Professional",
-    institution: "Meta",
-    period: "2021",
-    description: "Certificação oficial em desenvolvimento React com foco em melhores práticas, performance e arquitetura de aplicações.",
-  },
-  {
-    icon: "book",
-    title: "Curso Full Stack JavaScript",
-    institution: "Rocketseat",
-    period: "2020",
-    description: "Bootcamp intensivo cobrindo Node.js, React, React Native, TypeScript e ferramentas modernas de desenvolvimento.",
-  },
-  {
-    icon: "award",
-    title: "AWS Certified Developer",
-    institution: "Amazon Web Services",
-    period: "2022",
-    description: "Certificação em desenvolvimento e manutenção de aplicações na plataforma AWS, incluindo Lambda, DynamoDB e API Gateway.",
+    title: "Degree computer engineering",
+    institution: "Nova Umniversity Lisbon",
+    period: "2024-Present",
+    description: "-Focused on the study of programming, computer systems, algorithms, and software engineering. Includes hands-on experience through individual and group projects.",
   },
 ];
 

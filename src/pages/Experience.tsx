@@ -29,7 +29,7 @@ const Experience = () => {
             Experience
           </h1>
           <p className="text-xl text-muted-foreground mb-16">
-            My Academic Journey
+            My professional journey
           </p>
 
           <div className="space-y-12">
